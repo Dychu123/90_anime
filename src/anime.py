@@ -29,3 +29,4 @@ class Net(pl.LightningModule):
         h = self.feature(x)
         h = self.fc(h)
         return h
+    
