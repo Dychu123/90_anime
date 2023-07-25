@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<title>Anime Predict App</title>
+{% if animeName %}
+    <h1>これは {{ animeName }} です</h1>
+    <div>
+        <img src="{{ image }}">
+    </div>
+    <a href="./">トップへ戻る</a>
+{% else %}
+    <a href="./">トップへ戻る</a>
+{% endif %}
+
