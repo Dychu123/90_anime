@@ -242,7 +242,7 @@ pep8==1.7.1
 pexpect==4.8.0
 pickleshare==0.7.5
 pillow==8.4.0
-pip==21.2.4
+pip==23.2.1
 pkginfo==1.7.1
 pluggy==0.13.1
 ply==3.11
